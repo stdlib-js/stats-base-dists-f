@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.f;
+})();
 })();
 </script>
 ```
@@ -140,9 +142,11 @@ var y = dist.cdf( 0.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( f ) );
 
+})();
 })();
 </script>
 </body>
@@ -234,27 +238,27 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/f/ctor]: https://github.com/stdlib-js/stats-base-dists-f-ctor/tree/umd
+[@stdlib/stats/base/dists/f/ctor]: https://github.com/stdlib-js/stats-base-dists-f-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/entropy]: https://github.com/stdlib-js/stats-base-dists-f-entropy/tree/umd
+[@stdlib/stats/base/dists/f/entropy]: https://github.com/stdlib-js/stats-base-dists-f-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/kurtosis]: https://github.com/stdlib-js/stats-base-dists-f-kurtosis/tree/umd
+[@stdlib/stats/base/dists/f/kurtosis]: https://github.com/stdlib-js/stats-base-dists-f-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/mean]: https://github.com/stdlib-js/stats-base-dists-f-mean/tree/umd
+[@stdlib/stats/base/dists/f/mean]: https://github.com/stdlib-js/stats-base-dists-f-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/mode]: https://github.com/stdlib-js/stats-base-dists-f-mode/tree/umd
+[@stdlib/stats/base/dists/f/mode]: https://github.com/stdlib-js/stats-base-dists-f-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/skewness]: https://github.com/stdlib-js/stats-base-dists-f-skewness/tree/umd
+[@stdlib/stats/base/dists/f/skewness]: https://github.com/stdlib-js/stats-base-dists-f-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/stdev]: https://github.com/stdlib-js/stats-base-dists-f-stdev/tree/umd
+[@stdlib/stats/base/dists/f/stdev]: https://github.com/stdlib-js/stats-base-dists-f-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/variance]: https://github.com/stdlib-js/stats-base-dists-f-variance/tree/umd
+[@stdlib/stats/base/dists/f/variance]: https://github.com/stdlib-js/stats-base-dists-f-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/cdf]: https://github.com/stdlib-js/stats-base-dists-f-cdf/tree/umd
+[@stdlib/stats/base/dists/f/cdf]: https://github.com/stdlib-js/stats-base-dists-f-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/pdf]: https://github.com/stdlib-js/stats-base-dists-f-pdf/tree/umd
+[@stdlib/stats/base/dists/f/pdf]: https://github.com/stdlib-js/stats-base-dists-f-pdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/f/quantile]: https://github.com/stdlib-js/stats-base-dists-f-quantile/tree/umd
+[@stdlib/stats/base/dists/f/quantile]: https://github.com/stdlib-js/stats-base-dists-f-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
