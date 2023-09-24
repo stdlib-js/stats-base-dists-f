@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-f/tags). For example,
+
+```javascript
 import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { F, cdf, entropy, kurtosis, mean, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@v0.1.0-esm/index.mjs';
+import { F, cdf, entropy, kurtosis, mean, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@esm/index.mjs';
 ```
 
 #### f
@@ -132,7 +137,7 @@ var y = dist.cdf( 0.5 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@v0.1.0-esm/index.mjs';
+import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@esm/index.mjs';
 
 console.log( objectKeys( f ) );
 
