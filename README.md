@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@deno/mod.js';
+import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { F, cdf, entropy, kurtosis, mean, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@deno/mod.js';
+import { F, cdf, entropy, kurtosis, mean, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@v0.1.0-deno/mod.js';
 ```
 
 #### f
@@ -127,7 +127,7 @@ var y = dist.cdf( 0.5 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@deno/mod.js';
+import f from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( f ) );
 ```
