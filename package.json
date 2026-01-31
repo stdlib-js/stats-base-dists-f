@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-f",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Fisher's F distribution.",
   "license": "Apache-2.0",
   "author": {
@@ -38,15 +38,15 @@
   "dependencies": {
     "@stdlib/stats-base-dists-f-cdf": "^0.2.2",
     "@stdlib/stats-base-dists-f-ctor": "^0.2.2",
-    "@stdlib/stats-base-dists-f-entropy": "^0.2.2",
-    "@stdlib/stats-base-dists-f-kurtosis": "^0.2.2",
-    "@stdlib/stats-base-dists-f-mean": "^0.2.2",
-    "@stdlib/stats-base-dists-f-mode": "^0.2.2",
+    "@stdlib/stats-base-dists-f-entropy": "^0.3.0",
+    "@stdlib/stats-base-dists-f-kurtosis": "^0.3.0",
+    "@stdlib/stats-base-dists-f-mean": "^0.3.0",
+    "@stdlib/stats-base-dists-f-mode": "^0.3.0",
     "@stdlib/stats-base-dists-f-pdf": "^0.2.2",
     "@stdlib/stats-base-dists-f-quantile": "^0.2.2",
-    "@stdlib/stats-base-dists-f-skewness": "^0.2.2",
-    "@stdlib/stats-base-dists-f-stdev": "^0.2.2",
-    "@stdlib/stats-base-dists-f-variance": "^0.2.2",
+    "@stdlib/stats-base-dists-f-skewness": "^0.3.0",
+    "@stdlib/stats-base-dists-f-stdev": "^0.3.0",
+    "@stdlib/stats-base-dists-f-variance": "^0.3.0",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -54,7 +54,7 @@
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-positive-number": "^0.2.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float64-e": "^0.2.2",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-gamma-lanczos-g": "^0.2.2",
@@ -70,7 +70,7 @@
     "@stdlib/math-base-special-exp": "^0.2.4",
     "@stdlib/math-base-special-expm1": "^0.2.3",
     "@stdlib/math-base-special-gamma-lanczos-sum-expg-scaled": "^0.3.0",
-    "@stdlib/math-base-special-gammaln": "^0.2.2",
+    "@stdlib/math-base-special-gammaln": "^0.3.0",
     "@stdlib/math-base-special-kernel-betaincinv": "^0.2.2",
     "@stdlib/math-base-special-ln": "^0.2.4",
     "@stdlib/math-base-special-log1p": "^0.2.3",
