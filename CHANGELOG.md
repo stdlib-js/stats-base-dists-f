@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-08-02)
+
+<section class="features">
+
+### Features
+
+-   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,10 @@
 
 <details>
 
+-   [`b5b7b4c`](https://github.com/stdlib-js/stdlib/commit/b5b7b4cf9937655b9167cb0145394c787f36faeb) - **refactor:** add `isnan` guards [(#13362)](https://github.com/stdlib-js/stdlib/pull/13362) _(by Philipp Burckhardt)_
+-   [`67f7557`](https://github.com/stdlib-js/stdlib/commit/67f7557ca13ab425513196b26601e46f8a059ac2) - **chore:** clean-up [(#13283)](https://github.com/stdlib-js/stdlib/pull/13283) _(by Philipp Burckhardt)_
+-   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - **feat:** add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201) _(by Kamal Singh Rautela, Philipp Burckhardt)_
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`c265420`](https://github.com/stdlib-js/stdlib/commit/c265420bbb10e78261bf3d1beebe2f5764f0a5c5) - **bench:** update random value generation for `stats/base/dists/f/ctor` [(#10373)](https://github.com/stdlib-js/stdlib/pull/10373) _(by Lokesh Ranjan)_
 -   [`c14812b`](https://github.com/stdlib-js/stdlib/commit/c14812bfee0ec6951166b9ff869289a39eba4174) - **style:** add missing decimal _(by Athan Reines)_
@@ -30,9 +44,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Kamal Singh Rautela
 -   Lokesh Ranjan
 -   Philipp Burckhardt
 
