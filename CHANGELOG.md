@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-22)
 
 <section class="features">
 
@@ -22,6 +22,13 @@
 
 <details>
 
+-   [`c24d71e`](https://github.com/stdlib-js/stdlib/commit/c24d71e61a8e344ae3755b89d890841f7ccef35b) - **test:** migrate `stats/base/dists/f/mean` to ULP-based assertions [(#15233)](https://github.com/stdlib-js/stdlib/pull/15233) _(by Philipp Burckhardt)_
+-   [`a061461`](https://github.com/stdlib-js/stdlib/commit/a06146143ad215280e17e7f6b78164d5c5b15ef9) - **test:** migrate `stats/base/dists/f/skewness` to ULP-based assertions [(#15137)](https://github.com/stdlib-js/stdlib/pull/15137) _(by Philipp Burckhardt, Athan Reines)_
+-   [`6b37f33`](https://github.com/stdlib-js/stdlib/commit/6b37f33b615ede92b7972f0b1033dd1ae7393f03) - **test:** migrate `stats/base/dists/f/pdf` to ULP-based assertions [(#14853)](https://github.com/stdlib-js/stdlib/pull/14853) _(by Aryan kumar)_
+-   [`af5187f`](https://github.com/stdlib-js/stdlib/commit/af5187f613c28f0a6b50591600be586c95360393) - **test:** migrate `stats/base/dists/f/quantile` to ULP-based assertions [(#14554)](https://github.com/stdlib-js/stdlib/pull/14554) _(by Athan Reines)_
+-   [`fef947d`](https://github.com/stdlib-js/stdlib/commit/fef947d7e8d59d85d6862b913a6b2205384c7250) - **test:** migrate `stats/base/dists/f/entropy` to ULP-based assertions [(#14258)](https://github.com/stdlib-js/stdlib/pull/14258) _(by Athan Reines)_
+-   [`33b6642`](https://github.com/stdlib-js/stdlib/commit/33b6642518cb0acbf9f75844dd9ab6987ee66bb2) - **test:** migrate `stats/base/dists/f/stdev` to ULP-based assertions [(#14255)](https://github.com/stdlib-js/stdlib/pull/14255) _(by Philipp Burckhardt)_
+-   [`44cb452`](https://github.com/stdlib-js/stdlib/commit/44cb45281476abad44f0adaccbc0e1fafdbd04ee) - **test:** migrate `stats/base/dists/f/mode` to ULP-based assertions [(#14147)](https://github.com/stdlib-js/stdlib/pull/14147) _(by Athan Reines)_
 -   [`b5b7b4c`](https://github.com/stdlib-js/stdlib/commit/b5b7b4cf9937655b9167cb0145394c787f36faeb) - **refactor:** add `isnan` guards [(#13362)](https://github.com/stdlib-js/stdlib/pull/13362) _(by Philipp Burckhardt)_
 -   [`67f7557`](https://github.com/stdlib-js/stdlib/commit/67f7557ca13ab425513196b26601e46f8a059ac2) - **chore:** clean-up [(#13283)](https://github.com/stdlib-js/stdlib/pull/13283) _(by Philipp Burckhardt)_
 -   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - **feat:** add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201) _(by Kamal Singh Rautela, Philipp Burckhardt)_
@@ -44,8 +51,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Kamal Singh Rautela
 -   Lokesh Ranjan
