@@ -4,17 +4,31 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
 ### Features
 
+-   [`16cbdd1`](https://github.com/stdlib-js/stdlib/commit/16cbdd1b583a02b71073d54b0be447865ab3d92e) - add C implementation for `stats/base/dists/f/cdf` [(#14692)](https://github.com/stdlib-js/stdlib/pull/14692)
+-   [`93262c2`](https://github.com/stdlib-js/stdlib/commit/93262c260032936836c2eb5d20470d40e01febdc) - add C implementations for beta prime and F distribution quantile [(#15388)](https://github.com/stdlib-js/stdlib/pull/15388) [(#15410)](https://github.com/stdlib-js/stdlib/pull/15410)
 -   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201)
 
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3594](https://github.com/stdlib-js/stdlib/issues/3594)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -22,6 +36,13 @@
 
 <details>
 
+-   [`d06f1b1`](https://github.com/stdlib-js/stdlib/commit/d06f1b1697876b9ce61a64b771c59a8258ffac4e) - **docs:** fix parameter names [(#15928)](https://github.com/stdlib-js/stdlib/pull/15928) _(by Philipp Burckhardt)_
+-   [`16cbdd1`](https://github.com/stdlib-js/stdlib/commit/16cbdd1b583a02b71073d54b0be447865ab3d92e) - **feat:** add C implementation for `stats/base/dists/f/cdf` [(#14692)](https://github.com/stdlib-js/stdlib/pull/14692) _(by Philipp Burckhardt, Karan Anand)_
+-   [`93262c2`](https://github.com/stdlib-js/stdlib/commit/93262c260032936836c2eb5d20470d40e01febdc) - **feat:** add C implementations for beta prime and F distribution quantile [(#15388)](https://github.com/stdlib-js/stdlib/pull/15388) [(#15410)](https://github.com/stdlib-js/stdlib/pull/15410) _(by Philipp Burckhardt, Karan Anand)_
+-   [`e0572d1`](https://github.com/stdlib-js/stdlib/commit/e0572d1f54b93d5438468bc271734a42aa381dcc) - **test:** adjust tolerances due to upstream changes in kernel-betaincinv _(by Athan Reines)_
+-   [`7e7b440`](https://github.com/stdlib-js/stdlib/commit/7e7b440dfe9574c5926873680e838a9f80431913) - **test:** migrate `stats/base/dists/f/kurtosis` to ULP-based testing [(#15402)](https://github.com/stdlib-js/stdlib/pull/15402) _(by Divyanshu)_
+-   [`963d0fe`](https://github.com/stdlib-js/stdlib/commit/963d0fe1e9ac0295effb1dada5610e896634b7d1) - **test:** migrate `stats/base/dists/f/variance` to ULP-based testing [(#15403)](https://github.com/stdlib-js/stdlib/pull/15403) _(by Divyanshu)_
+-   [`83cb26e`](https://github.com/stdlib-js/stdlib/commit/83cb26e52898c9f6cd9701544a72abc31db8b75e) - **test:** migrate `stats/base/dists/f/cdf` to ULP-based testing [(#15405)](https://github.com/stdlib-js/stdlib/pull/15405) _(by Divyanshu)_
 -   [`c24d71e`](https://github.com/stdlib-js/stdlib/commit/c24d71e61a8e344ae3755b89d890841f7ccef35b) - **test:** migrate `stats/base/dists/f/mean` to ULP-based assertions [(#15233)](https://github.com/stdlib-js/stdlib/pull/15233) _(by Philipp Burckhardt)_
 -   [`a061461`](https://github.com/stdlib-js/stdlib/commit/a06146143ad215280e17e7f6b78164d5c5b15ef9) - **test:** migrate `stats/base/dists/f/skewness` to ULP-based assertions [(#15137)](https://github.com/stdlib-js/stdlib/pull/15137) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6b37f33`](https://github.com/stdlib-js/stdlib/commit/6b37f33b615ede92b7972f0b1033dd1ae7393f03) - **test:** migrate `stats/base/dists/f/pdf` to ULP-based assertions [(#14853)](https://github.com/stdlib-js/stdlib/pull/14853) _(by Aryan kumar)_
@@ -51,11 +72,13 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
+-   Divyanshu
 -   Kamal Singh Rautela
+-   Karan Anand
 -   Lokesh Ranjan
 -   Philipp Burckhardt
 
